@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>RestaurantImage</key>
+	<array>
+		<string>genki-sushi</string>
+		<string>tanaka-of-tokyo</string>
+		<string>doraku</string>
+		<string>bubba-gump</string>
+		<string>shirokiya</string>
+		<string>tempura-ichidai</string>
+	</array>
+	<key>Restaurant Title</key>
+	<array>
+		<string>Genki Sushi</string>
+		<string>Tanaka of Tokyo</string>
+		<string>Doraku</string>
+		<string>Bubba Gump</string>
+		<string>Shirokiya</string>
+		<string>Tempura Ichidai</string>
+	</array>
+	<key>Description</key>
+	<array>
+		<string>Diners pluck sushi &amp; maki rolls from a moving conveyor belt at this Japan-based chain outpost.</string>
+		<string>Japanese teppanyaki-style eatery where chefs prepare steak &amp; seafood at tableside grills.</string>
+		<string>Stylish choice for sushi &amp; Japanese small plates plus a broad sake selection in sleek, vibrant digs.</string>
+		<string>Family-friendly chain for seafood &amp; American fare served in a fishing-boat-themed setting.</string>
+		<string>Sprawling food court with an array of Japanese dishes, a French restaurant &amp; an indoor beer garden.</string>
+		<string>tempura lol</string>
+	</array>
+</dict>
+</plist>

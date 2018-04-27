@@ -9,7 +9,6 @@
 import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-
   
     @IBOutlet var TableView: UITableView!
     var restaurants = ["Genki Sushi", "Tanaka of Tokyo", "Doraku", "Bubba Gump Shrimp Co.", "Shirokiya", "Tempura Ichidai"]
@@ -20,6 +19,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        title = "My Favorite Restuarants in Ala Moana"
+        
         // Do any additional setup after loading the view, typically from a nib.
         
         TableView.dataSource = self
@@ -67,14 +69,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             let s1 = segue.destination as! detailViewController
             let imageIndex = TableView.indexPathForSelectedRow?.row
             s1.imagePass = restaurantImageData[imageIndex!]
+            s1.titlePass = restaurantTitleData[imageIndex!]
+            s1.descriptionPass = restuarantDescriptionData[imageIndex!]
+           
             
-            let s2 = segue.destination as! detailViewController
-            let titleIndex = TableView.indexPathForSelectedRow?.row
-            s2.titlePass = restaurantTitleData[titleIndex!]
-            
-            let s3 = segue.destination as! detailViewController
-            let descriptionIndex = TableView.indexPathForSelectedRow?.row
-            s3.descriptionPass = restuarantDescriptionData[descriptionIndex!]
             
     }
 

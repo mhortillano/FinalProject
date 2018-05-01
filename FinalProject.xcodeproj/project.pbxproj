@@ -19,6 +19,9 @@
 		A647BF6320853D3F0041B999 /* doraku.swift in Sources */ = {isa = PBXBuildFile; fileRef = A647BF6220853D3F0041B999 /* doraku.swift */; };
 		A647BF65208540DF0041B999 /* bubbaGumpShrimpCO.swift in Sources */ = {isa = PBXBuildFile; fileRef = A647BF64208540DF0041B999 /* bubbaGumpShrimpCO.swift */; };
 		A647BF67208E66D90041B999 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A647BF66208E66D90041B999 /* detailViewController.swift */; };
+		A6814B4E2098E7E3006EA88E /* jollibee.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6814B4D2098E7E3006EA88E /* jollibee.swift */; };
+		A6F7446E2098E13800706FE3 /* Shirokiya.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F7446D2098E13800706FE3 /* Shirokiya.swift */; };
+		A6F744702098E43800706FE3 /* tempuraIchidai.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F7446F2098E43800706FE3 /* tempuraIchidai.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		A647BF6220853D3F0041B999 /* doraku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doraku.swift; sourceTree = "<group>"; };
 		A647BF64208540DF0041B999 /* bubbaGumpShrimpCO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bubbaGumpShrimpCO.swift; sourceTree = "<group>"; };
 		A647BF66208E66D90041B999 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
+		A6814B4D2098E7E3006EA88E /* jollibee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jollibee.swift; sourceTree = "<group>"; };
+		A6F7446D2098E13800706FE3 /* Shirokiya.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shirokiya.swift; sourceTree = "<group>"; };
+		A6F7446F2098E43800706FE3 /* tempuraIchidai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tempuraIchidai.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +91,11 @@
 		A647BF5F20853CEE0041B999 /* Restaurant Pins */ = {
 			isa = PBXGroup;
 			children = (
+				A6F7446F2098E43800706FE3 /* tempuraIchidai.swift */,
+				A6F7446D2098E13800706FE3 /* Shirokiya.swift */,
 				A647BF64208540DF0041B999 /* bubbaGumpShrimpCO.swift */,
 				A647BF6220853D3F0041B999 /* doraku.swift */,
+				A6814B4D2098E7E3006EA88E /* jollibee.swift */,
 				A647BF5D20853B990041B999 /* tanakaOfTokyo.swift */,
 				A647BF57208538E20041B999 /* genkiSushi.swift */,
 			);
@@ -165,11 +174,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6814B4E2098E7E3006EA88E /* jollibee.swift in Sources */,
+				A6F7446E2098E13800706FE3 /* Shirokiya.swift in Sources */,
 				A647BF5E20853B990041B999 /* tanakaOfTokyo.swift in Sources */,
 				A63A8062207C032C0088051B /* ViewController.swift in Sources */,
 				A647BF65208540DF0041B999 /* bubbaGumpShrimpCO.swift in Sources */,
 				A647BF58208538E20041B999 /* genkiSushi.swift in Sources */,
 				A647BF6320853D3F0041B999 /* doraku.swift in Sources */,
+				A6F744702098E43800706FE3 /* tempuraIchidai.swift in Sources */,
 				A63A8060207C032C0088051B /* AppDelegate.swift in Sources */,
 				A647BF562085336C0041B999 /* ViewControllerTwo.swift in Sources */,
 				A647BF67208E66D90041B999 /* detailViewController.swift in Sources */,

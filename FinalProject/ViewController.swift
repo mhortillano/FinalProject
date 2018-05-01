@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
   
     @IBOutlet var TableView: UITableView!
-    var restaurants = ["Genki Sushi", "Tanaka of Tokyo", "Doraku", "Bubba Gump Shrimp Co.", "Shirokiya", "Tempura Ichidai"]
+    var restaurants = ["Genki Sushi", "Tanaka of Tokyo", "Jollibee", "Bubba Gump Shrimp Co.", "Shirokiya", "Tempura Ichidai"]
     
     var restaurantImageData = [String]()
     var restaurantTitleData = [String]()

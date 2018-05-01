@@ -16,10 +16,12 @@ class ViewControllerTwo: UIViewController {
     //set intial location to ala moana
     let initialLocation = CLLocation(latitude: 21.29125, longitude: -157.844311)
     //set region radius around ala moana to 1000m
-    let regionRadius: CLLocationDistance = 500
+    let regionRadius: CLLocationDistance = 250
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        title = "Ala Moana Center"
 
     //Initial Location set to Ala Moana Mall
      centerMapOnLocation(location: initialLocation)
@@ -32,13 +34,21 @@ class ViewControllerTwo: UIViewController {
         let tanakaOfTokyoPlace = tanakaOfTokyo(title: "Tanaka of Tokyo", type: "Japanese", coordinate: CLLocationCoordinate2D(latitude: 21.2906, longitude: -157.8431))
         mapView.addAnnotation(tanakaOfTokyoPlace)
         
-        //create Doraku object and set all the arguments to each of the three parameters
-        let dorakuPlace = doraku(title: "Doraku", type: "Japanese", coordinate: CLLocationCoordinate2D(latitude: 21.2969, longitude: -157.85151))
-        mapView.addAnnotation(dorakuPlace)
+        //create Jollibee object and set all the arguments to each of the three parameters
+        let jollibeePlace = jollibee(title: "Jollibee", type: "Filipino", coordinate: CLLocationCoordinate2D(latitude: 21.2906, longitude: -157.8443))
+        mapView.addAnnotation(jollibeePlace)
         
         //create Bubba Gump object and set all the arguments to each of the three parameters
         let bubbaGumpShrimpCOPlace = bubbaGumpShrimpCO(title: "Bubba Gump Shrimp Co.", type: "American", coordinate: CLLocationCoordinate2D(latitude: 21.291038, longitude: -157.84317))
         mapView.addAnnotation(bubbaGumpShrimpCOPlace)
+        
+        //create Shirokiya object and set all the arguments to each of the three parameters
+        let shirokiyaPlace = Shirokiya(title: "Shirokiya", type: "Japanese", coordinate: CLLocationCoordinate2D(latitude: 21.2920, longitude: -157.8456))
+        mapView.addAnnotation(shirokiyaPlace)
+        
+        //create tempuraIchidai object and set all the arguments to each of the three parameters
+        let tempuraIchidaiPlace = tempuraIchidai(title: "Tempura Ichidai", type: "Japanese", coordinate: CLLocationCoordinate2D(latitude: 21.2924, longitude: -157.8456))
+        mapView.addAnnotation(tempuraIchidaiPlace)
         
         
         // Do any additional setup after loading the view.
